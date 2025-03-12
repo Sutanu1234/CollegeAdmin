@@ -88,7 +88,7 @@ export const data = {
         items: [
           {
             title: "Pending Requests",
-            url: "#",
+            url: "/allrequest",
             icon: InboxIcon
           },
           {

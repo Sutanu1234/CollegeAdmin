@@ -12,6 +12,7 @@ import AddBook from "./components/pages/library/add-book";
 import { AdmitMain } from "./components/pages/student/admit/admit-main";
 import { AllStudent } from "./components/pages/student/all-student";
 import { ResultMain } from "./components/pages/student/result/add-result";
+import { AllRequest } from "./components/pages/finance/allrequest";
 
 export default function SideBar() {
   return (
@@ -28,6 +29,7 @@ export default function SideBar() {
             <Route path="admit" element={<AdmitMain />} />
             <Route path="allStudents" element={<AllStudent />} />
             <Route path="result" element={<ResultMain />} />
+            <Route path="allrequest" element={<AllRequest />} />
           </Routes>
           </div>
         </SidebarInset>
